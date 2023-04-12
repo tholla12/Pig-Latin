@@ -1,0 +1,33 @@
+.result {
+  display: none;
+  margin-top: 30px;
+  margin-left: 300px;
+  color: gold;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#head {
+  font-family: cursive;
+  font-size: 40px;
+  color: gold;
+  margin-left: 300px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url(../image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: gold;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#form-one {
+  margin-top: 170px;
+  margin-left: 300px;
+}

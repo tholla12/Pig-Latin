@@ -10,3 +10,16 @@ function pigLatin(word) {
     : word.concat("way");
 
 }
+
+// UI LOGIC
+$(document).ready(function () {
+  $("#form-one").submit(function (event) {
+    event.preventDefault();
+
+    const passage = $("#passage").val()
+    $("#sentence-one").text(passage);
+    $("#sentence-two").text(pigLatin(passage));
+    $(".result").show();
+    console.log(passage)
+  })
+})
